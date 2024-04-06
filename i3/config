@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -191,12 +191,15 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id feh --bg-fill $HOME/wallpapers/1224122.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id mcontrolcenter
+exec --no-startup-id dunst
 
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 bindsym $mod+Shift+s exec --no-startup-id systemctl suspend
 bindsym $mod+Shift+p exec --no-startup-id systemctl poweroff
 bindsym Print exec --no-startup-id flameshot gui
+bindsym $mod+Control+Left workspace prev
+bindsym $mod+Control+Right workspace next
 
 gaps inner 10
 for_window [class="^.*"] border pixel 3

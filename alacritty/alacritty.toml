@@ -1,11 +1,11 @@
 [font]
-size = 8
+size = 10
 
 [window]
 opacity = 1
 
 [colors.primary]
-background = "#1E1E2E"
+background = "#222222"
 foreground = "#CDD6F4"
 dim_foreground = "#CDD6F4"
 bright_foreground = "#CDD6F4"
