@@ -1,0 +1,40 @@
+{
+  "B03400000000:47D9A402": {
+    "_modelId": "B03400000000",
+    "_name": "MX Master 3S",
+    "_sensitive": {
+      "divert-keys": false,
+      "dpi": false,
+      "hires-smooth-invert": false,
+      "mouse-gestures": false,
+      "reprogrammable-keys": false,
+      "thumb-scroll-mode": false
+    },
+    "_unitId": "47D9A402",
+    "divert-keys": {
+      "195": 1,
+      "196": 0,
+      "82": 0,
+      "83": 0,
+      "86": 0
+    },
+    "dpi": "5000",
+    "dpi-sliding": 0,
+    "hires-smooth-invert": true,
+    "hires-smooth-resolution": false,
+    "mouse-gestures": "195",
+    "reprogrammable-keys": {
+      "195": 195,
+      "196": 196,
+      "80": 80,
+      "81": 81,
+      "82": 82,
+      "83": 83,
+      "86": 86
+    },
+    "smart-shift": 0,
+    "thumb-scroll-invert": false,
+    "thumb-scroll-mode": false
+  },
+  "_version": "1.1.1"
+}

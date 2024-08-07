@@ -1,0 +1,13 @@
+%YAML 1.3
+---
+- MouseGesture: Mouse Down
+- KeyPress: [Meta_L, Down]
+...
+---
+- MouseGesture: Mouse Right
+- KeyPress: [Control_L, Alt_L, Left]
+...
+---
+- MouseGesture: Mouse Left
+- KeyPress: [Control_L, Alt_L, Right]
+...
